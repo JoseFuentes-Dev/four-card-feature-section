@@ -16,10 +16,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--Very-Light-Gray-body);
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
    
 }
 /* <-------------------all container---------------> */
@@ -27,7 +27,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px;
+  padding: 0 25px 25px 25px 0;
 }
 /* <-------------------top container---------------> */
 .top{
