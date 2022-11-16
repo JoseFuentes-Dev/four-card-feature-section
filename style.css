@@ -66,7 +66,6 @@ body{
     padding: 25px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 5px;
    
 }
@@ -113,6 +112,7 @@ img:hover{
 .card2{
     border-top:4px solid var(--Red-card2);
     animation: animated2 2s ease infinite;
+    margin-bottom: 18px;
 }
 @keyframes animated2 {
     0%{
